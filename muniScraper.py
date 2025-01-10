@@ -1,7 +1,6 @@
 import time as sleep
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
-from webdriver_manager.firefox import GeckoDriverManager
 import os
 from datetime import datetime, date, timedelta
 
@@ -88,8 +87,12 @@ def scrape_tee_times(dayOfWeek):
     options.add_argument("--headless")  # Run in headless mode
     options.add_argument("--incognito")  # Use incognito mode
 
-    # Use webdriver-manager to automatically download the appropriate geckodriver
-    driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()), options=options)
+    # Specify the path to your manually downloaded geckodriver
+    geckodriver_path = "/usr/local/bin/geckodriver"  # Replace this with the actual path where you extracted geckodriver
+
+    # Set up the Firefox service with the manually specified geckodriver path
+    service = Service(geckodriver_path)
+    driver = webdriver.Firefox(service=service, options=options)
 
     driver.get(url)
     sleep.sleep(5)
