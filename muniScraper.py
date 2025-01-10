@@ -1,7 +1,7 @@
 import time as sleep
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.firefox.service import Service
+from webdriver_manager.firefox import GeckoDriverManager
 import os
 from datetime import datetime, date, timedelta
 
@@ -84,16 +84,14 @@ def scrape_tee_times(dayOfWeek):
 
     url = f"https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token={CSRF_TOKEN}&numberofplayers={NUMBER_OF_PLAYERS}&secondarycode=&begindate={BEGIN_DATE}&begintime={BEGIN_TIME}&numberofholes={NUMBER_OF_HOLES}&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes"
 
-    # Set up Firefox options
-    options = Options()
-    options.headless = True  # Run Firefox in headless mode (no UI)
+    options = webdriver.FirefoxOptions()
+    options.add_argument("--headless")  # Run in headless mode
     options.add_argument("--incognito")  # Use incognito mode
 
-    # Initialize Firefox WebDriver with the options
-    driver = webdriver.Firefox(options=options)
+    # Use webdriver-manager to automatically download the appropriate geckodriver
+    driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()), options=options)
 
     driver.get(url)
-
     sleep.sleep(5)
 
     file_path = get_target_filename(dayOfWeek)
