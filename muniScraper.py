@@ -89,6 +89,9 @@ def scrape_tee_times(dayOfWeek):
     options.add_argument("--headless")  # If you need headless mode, enable this line
     options.add_argument("--disable-gpu")  # Disable GPU hardware acceleration
 
+    # Specify the Chromium path
+    options.binary_location = "/usr/bin/chromium-browser"
+
     driver = uc.Chrome(options=options)
 
     driver.get(url)
