@@ -93,7 +93,7 @@ def scrape_tee_times(dayOfWeek):
     # Set up the Firefox service with the manually specified geckodriver path
     service = Service(geckodriver_path)
     driver = webdriver.Firefox(service=service, options=options)
-    print("before we fetch)
+    print("before we fetch")
     driver.get(url)
     print("after we fetch)      
     sleep.sleep(5)
