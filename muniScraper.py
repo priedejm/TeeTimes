@@ -1,16 +1,17 @@
 from selenium import webdriver
+from selenium.webdriver.firefox.service import Service
 
 options = webdriver.FirefoxOptions()
-options.add_argument("--headless")  # Run Firefox in headless mode
+options.add_argument("--headless")
 
-# Create the WebDriver instance with options
-driver = webdriver.Firefox(options=options)
+# Specify the geckodriver path explicitly
+geckodriver_path = "/usr/local/bin/geckodriver"  # Replace with your geckodriver path
+service = Service(geckodriver_path)
 
-# Open a test page
-driver.get("https://www.google.com")
+# Use the service to initialize Firefox driver
+driver = webdriver.Firefox(service=service, options=options)
 
-# Print the title of the page
+driver.get("https://www.example.com")
 print(driver.title)
 
-# Quit the driver
 driver.quit()
