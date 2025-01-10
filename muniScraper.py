@@ -1,7 +1,7 @@
-# muniScraper.py
 import time as sleep
-from seleniumbase import Driver
+from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.firefox.options import Options
 import os
 from datetime import datetime, date, timedelta
 
@@ -84,14 +84,13 @@ def scrape_tee_times(dayOfWeek):
 
     url = f"https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token={CSRF_TOKEN}&numberofplayers={NUMBER_OF_PLAYERS}&secondarycode=&begindate={BEGIN_DATE}&begintime={BEGIN_TIME}&numberofholes={NUMBER_OF_HOLES}&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes"
 
-    options = {
-        "uc": True,  # Enable undetected Chromium mode
-        "incognito": True,  # Use incognito mode
-        "headless": True,  # Headless mode (no browser UI)
-    }
+    # Set up Firefox options
+    options = Options()
+    options.headless = True  # Run Firefox in headless mode (no UI)
+    options.add_argument("--incognito")  # Use incognito mode
 
-    # Initialize the driver with the appropriate options
-    driver = Driver(**options)  # Initialize the SeleniumBase driver with UC Mode enabled
+    # Initialize Firefox WebDriver with the options
+    driver = webdriver.Firefox(options=options)
 
     driver.get(url)
 
