@@ -79,19 +79,21 @@ NUMBER_OF_HOLES = 18
 CSRF_TOKEN = "Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G"
 
 def scrape_tee_times(dayOfWeek):
+    print("Lets scrape!")
     BEGIN_DATE = get_target_date(dayOfWeek)
 
     url = f"https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token={CSRF_TOKEN}&numberofplayers={NUMBER_OF_PLAYERS}&secondarycode=&begindate={BEGIN_DATE}&begintime={BEGIN_TIME}&numberofholes={NUMBER_OF_HOLES}&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes"
-
+    print("before webdriver")
     options = webdriver.FirefoxOptions()
     options.add_argument("--headless")  # Run in headless mode
     options.add_argument("--incognito")  # Use incognito mode
-
+    print("after argyments")
     # Specify the path to your manually downloaded geckodriver
     geckodriver_path = "/usr/local/bin/geckodriver"  # Replace this with the actual path where you extracted geckodriver
-
+    print("after path")
     # Set up the Firefox service with the manually specified geckodriver path
     service = Service(geckodriver_path)
+    print("after service")
     driver = webdriver.Firefox(service=service, options=options)
     print("before we fetch")
     driver.get(url)
