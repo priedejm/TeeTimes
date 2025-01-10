@@ -95,9 +95,9 @@ def scrape_tee_times(dayOfWeek):
     driver = webdriver.Firefox(service=service, options=options)
     print("before we fetch")
     driver.get(url)
-    print("after we fetch)      
+    print("after we fetch")      
     sleep.sleep(5)
-    print("after we sleep)
+    print("after we sleep")
     file_path = get_target_filename(dayOfWeek)
     print("after file name")
     new_tee_times_list = []
