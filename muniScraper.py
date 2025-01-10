@@ -1,6 +1,6 @@
 # muniScraper.py
 import time as sleep
-import undetected_chromedriver as uc
+from seleniumbase import Driver
 from selenium.webdriver.common.by import By
 import os
 from datetime import datetime, date, timedelta
@@ -78,21 +78,13 @@ NUMBER_OF_PLAYERS = 1
 BEGIN_TIME = "+7%3A00AM"
 NUMBER_OF_HOLES = 18
 CSRF_TOKEN = "Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G"
+
 def scrape_tee_times(dayOfWeek):
     BEGIN_DATE = get_target_date(dayOfWeek)
 
     url = f"https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token={CSRF_TOKEN}&numberofplayers={NUMBER_OF_PLAYERS}&secondarycode=&begindate={BEGIN_DATE}&begintime={BEGIN_TIME}&numberofholes={NUMBER_OF_HOLES}&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes"
 
-    options = uc.ChromeOptions()
-    options.add_argument("--start-maximized")  # Maximize the window
-    options.add_argument("--disable-extensions")  # Disable extensions
-    options.add_argument("--headless")  # If you need headless mode, enable this line
-    options.add_argument("--disable-gpu")  # Disable GPU hardware acceleration
-
-    # Specify the Chromium path
-    options.binary_location = "/usr/bin/chromium-browser"
-
-    driver = uc.Chrome(options=options)
+    driver = Driver(uc=True, incognito=True)
 
     driver.get(url)
 
