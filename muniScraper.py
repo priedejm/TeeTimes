@@ -84,7 +84,14 @@ def scrape_tee_times(dayOfWeek):
 
     url = f"https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token={CSRF_TOKEN}&numberofplayers={NUMBER_OF_PLAYERS}&secondarycode=&begindate={BEGIN_DATE}&begintime={BEGIN_TIME}&numberofholes={NUMBER_OF_HOLES}&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes"
 
-    driver = Driver(uc=True, incognito=True)
+    options = {
+        "uc": True,  # Enable undetected Chromium mode
+        "incognito": True,  # Use incognito mode
+        "headless": True,  # Headless mode (no browser UI)
+    }
+
+    # Initialize the driver with the appropriate options
+    driver = Driver(**options)  # Initialize the SeleniumBase driver with UC Mode enabled
 
     driver.get(url)
 
