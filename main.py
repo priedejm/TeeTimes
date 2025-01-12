@@ -29,7 +29,7 @@ DISCORD_URL = "https://discord.com/api/webhooks/1326397023171252255/dV5__1t-tiXc
 new_times_saturday = muniScraper.scrape_tee_times("Saturday")
 # new_times_sunday = muniScraper.scrape_tee_times("Sunday")
 
-combined_new_times = new_times_friday + new_times_saturday + new_times_sunday
+combined_new_times = new_times_saturday
 
 # Process the combined times and send to Discord
 if combined_new_times:
