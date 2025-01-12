@@ -69,6 +69,11 @@ def extract_time_from_tee_time(tee_time):
     time_value = time_str.replace("Time: ", "").strip()  # Remove "Time: " and surrounding spaces
     return time_value
 
+def extract_date_from_tee_time(tee_time):
+    date_str = tee_time.split(",")[1]  # Get the part after the time
+    date_value = date_str.replace("Date: ", "").strip()  # Remove "Date: " and surrounding spaces
+    return date_value
+
 def extract_open_slots_from_tee_time(tee_time):
     open_slots_str = tee_time.split(",")[-1]  # Get the part after the last comma
     open_slots_value = open_slots_str.replace("Open Slots: ", "").strip()  # Remove "Open Slots: " and any surrounding spaces
@@ -139,11 +144,20 @@ def scrape_tee_times(dayOfWeek):
             # Find new tee times based on the logic:
             # 1. If the time is new (not in saved times)
             # 2. Or if the open slots have increased (current_open_slots > saved_open_slots)
+            # 3. Ensure the tee time is not in the past
             new_tee_times = []
 
             for current_tee_time in current_tee_times:
                 current_time = extract_time_from_tee_time(current_tee_time)
+                current_date = extract_date_from_tee_time(current_tee_time)
                 current_open_slots = extract_open_slots_from_tee_time(current_tee_time)
+
+                # Combine date and time into a datetime object
+                current_datetime = datetime.strptime(f"{current_date} {current_time}", "%m/%d/%Y %I:%M %p")
+
+                # Skip times in the past
+                if current_datetime < datetime.now():
+                    continue
 
                 # Check if the time exists in the saved times
                 if current_time not in saved_tee_times_set:
