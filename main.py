@@ -34,7 +34,7 @@ combined_new_times = new_times_friday + new_times_saturday + new_times_sunday
 # Process the combined times and send to Discord
 if combined_new_times:
     print("\nAll new tee times collected:")
-    send_to_discord(DISCORD_URL, combined_new_times)
+    # send_to_discord(DISCORD_URL, combined_new_times)
     for time in combined_new_times:
         print(time)
 else:
