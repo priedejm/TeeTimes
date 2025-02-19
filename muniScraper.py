@@ -103,9 +103,10 @@ def scrape_tee_times(dayOfWeek):
     service = Service(chromedriver_path)
 
     try:
+        print("this our guy", service)
         # Initialize the Chromium WebDriver
         driver = webdriver.Chrome(service=service, options=chrome_options)
-        
+        print("driver has been set")
         # Open the URL
         driver.get(url)
         sleep.sleep(5)
@@ -210,6 +211,7 @@ def scrape_tee_times(dayOfWeek):
             save_tee_times(file_path, current_tee_times)
 
     finally:
-        driver.quit()
+       if driver:
+            driver.quit()
 
     return new_tee_times_list
