@@ -102,6 +102,8 @@ def scrape_tee_times(dayOfWeek):
     # Set up the ChromeDriver service
     service = Service(chromedriver_path)
 
+    driver = None  # Initialize driver to None before the try-except block
+
     try:
         print("this our guy", service)
         # Initialize the Chromium WebDriver
@@ -210,8 +212,12 @@ def scrape_tee_times(dayOfWeek):
             # Save the current tee times to the file (do not mark them as new)
             save_tee_times(file_path, current_tee_times)
 
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
     finally:
-       if driver:
+        if driver:
             driver.quit()
 
     return new_tee_times_list
+
