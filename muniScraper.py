@@ -104,6 +104,8 @@ def scrape_tee_times(dayOfWeek):
 
     driver = None  # Initialize driver to None before the try-except block
 
+    new_tee_times_list = []  # Initialize the list to store new tee times
+
     try:
         print("this our guy", service)
         # Initialize the Chromium WebDriver
@@ -114,7 +116,6 @@ def scrape_tee_times(dayOfWeek):
         sleep.sleep(5)
 
         file_path = get_target_filename(dayOfWeek)
-        new_tee_times_list = []
 
         # Check if the file already exists
         if os.path.exists(file_path):
@@ -220,4 +221,3 @@ def scrape_tee_times(dayOfWeek):
             driver.quit()
 
     return new_tee_times_list
-
