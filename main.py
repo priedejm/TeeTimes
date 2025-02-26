@@ -35,11 +35,14 @@ delete_past_files()
 DISCORD_URL = "https://discord.com/api/webhooks/1326397023171252255/dV5__1t-tiXcqnkGzNTayMFejrOAqwpPbP-L3_K9ulExLBfuKzAjr2eocLxJayVtXIRA"
 
 try:
+    # Scrape tee times for Friday, Saturday, Sunday, and Wednesday
+    new_times_wednesday = muniScraper.scrape_tee_times("Wednesday")
     new_times_friday = muniScraper.scrape_tee_times("Friday")
     new_times_saturday = muniScraper.scrape_tee_times("Saturday")
     new_times_sunday = muniScraper.scrape_tee_times("Sunday")
 
-    combined_new_times = new_times_friday + new_times_saturday + new_times_sunday
+    # Combine the new tee times from all days
+    combined_new_times = new_times_wednesday + new_times_friday + new_times_saturday + new_times_sunday
 
     # Process the combined times and send to Discord
     if combined_new_times:
