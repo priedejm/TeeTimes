@@ -36,7 +36,7 @@ DISCORD_URL = "https://discord.com/api/webhooks/1326397023171252255/dV5__1t-tiXc
 
 try:
     # Scrape tee times for Friday, Saturday, Sunday, and Wednesday
-    new_times_wednesday = muniScraper.scrape_tee_times("Wednesday")
+    new_times_wednesday = muniScraper.scrape_tee_times("Monday")
     new_times_friday = muniScraper.scrape_tee_times("Friday")
     new_times_saturday = muniScraper.scrape_tee_times("Saturday")
     new_times_sunday = muniScraper.scrape_tee_times("Sunday")
