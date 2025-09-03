@@ -5,6 +5,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 import os
 from datetime import date, timedelta
+import tempfile
 
 CSRF_TOKEN = "Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G"
 NUMBER_OF_PLAYERS = 1
@@ -55,6 +56,10 @@ def scrape_tee_times(dayOfWeek):
     chrome_options = Options()
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    # Always use a fresh temporary profile
+    tmp_profile = tempfile.mkdtemp()
+    chrome_options.add_argument(f"--user-data-dir={tmp_profile}")
 
     service = Service(CHROMEDRIVER_PATH)
     driver = None
