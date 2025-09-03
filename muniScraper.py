@@ -11,7 +11,8 @@ CSRF_TOKEN = "Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y
 NUMBER_OF_PLAYERS = 1
 BEGIN_TIME = "+7%3A00AM"
 NUMBER_OF_HOLES = 18
-CHROMEDRIVER_PATH = "/opt/homebrew/bin/chromedriver"
+#CHROMEDRIVER_PATH = "/opt/homebrew/bin/chromedriver"
+CHROMEDRIVER_PATH = "/usr/bin/chromedriver"
 
 def get_target_date(day_of_week):
     today = date.today()
