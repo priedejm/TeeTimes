@@ -31,13 +31,30 @@ def get_target_filename(day_of_week):
     readable_date = get_target_date(day_of_week).replace("%2F", "-")
     return f"muni_tee_times_{readable_date}.txt"
 
-def read_saved_tee_times(file_path):
-    saved_times = set()
+def create_tee_time_key(time_val, date_val, holes, course):
+    """Create a unique key for a tee time slot, excluding open slots count"""
+    return f"Time: {time_val}, Date: {date_val}, Holes: {holes}, Course: {course}"
+
+def create_full_tee_time(time_val, date_val, holes, course, open_slots):
+    """Create the full tee time string with all details including open slots"""
+    return f"Time: {time_val}, Date: {date_val}, Holes: {holes}, Course: {course}, Open Slots: {open_slots}"
+
+def read_saved_tee_time_keys(file_path):
+    """Read saved tee times and extract just the keys (without slot counts)"""
+    saved_keys = set()
     if os.path.exists(file_path):
         with open(file_path, "r") as file:
             for line in file:
-                saved_times.add(line.strip())
-    return saved_times
+                line = line.strip()
+                if line:
+                    # Extract the key part (everything before ", Open Slots:")
+                    if ", Open Slots:" in line:
+                        key = line.split(", Open Slots:")[0]
+                        saved_keys.add(key)
+                    else:
+                        # Fallback for lines without Open Slots info
+                        saved_keys.add(line)
+    return saved_keys
 
 def save_tee_times(file_path, tee_times):
     with open(file_path, "w") as file:
@@ -84,6 +101,8 @@ def scrape_tee_times(dayOfWeek):
         print(f"[INFO] Found {len(cart_buttons)} tee time buttons on page")
 
         current_tee_times = []
+        current_tee_time_keys = set()
+        
         for button in cart_buttons:
             parent_row = button.find_element(By.XPATH, "ancestor::tr")
             time_val = parent_row.find_element(By.XPATH, ".//td[@data-title='Time']").text
@@ -92,25 +111,47 @@ def scrape_tee_times(dayOfWeek):
             course = parent_row.find_element(By.XPATH, ".//td[@data-title='Course']").text
             open_slots = parent_row.find_element(By.XPATH, ".//td[@data-title='Open Slots']").text
 
-            tee_time = f"Time: {time_val}, Date: {date_val}, Holes: {holes}, Course: {course}, Open Slots: {open_slots}"
-            current_tee_times.append(tee_time)
-            print(f"[FOUND] {tee_time}")
+            # Create the unique key (without slots) and full string (with slots)
+            tee_time_key = create_tee_time_key(time_val, date_val, holes, course)
+            full_tee_time = create_full_tee_time(time_val, date_val, holes, course, open_slots)
+            
+            current_tee_times.append(full_tee_time)
+            current_tee_time_keys.add(tee_time_key)
+            print(f"[FOUND] {full_tee_time}")
 
         file_path = get_target_filename(dayOfWeek)
-        saved_tee_times = read_saved_tee_times(file_path)
-        print(f"[INFO] Loaded {len(saved_tee_times)} saved times from file")
+        saved_tee_times_data = read_saved_tee_times_with_slots(file_path)
+        print(f"[INFO] Loaded {len(saved_tee_times_data)} saved tee time keys from file")
 
-        # Detect new tee times
+        # Detect truly new tee times OR existing times with increased slots
         for tee_time in current_tee_times:
-            if tee_time not in saved_tee_times:
-                new_tee_times_list.append(tee_time)
+            # Extract key and current slot count
+            if ", Open Slots: " in tee_time:
+                parts = tee_time.split(", Open Slots: ")
+                if len(parts) == 2:
+                    tee_key = parts[0]
+                    try:
+                        current_slots = int(parts[1])
+                        
+                        # Check if this is a new time slot OR has more slots than before
+                        if tee_key not in saved_tee_times_data:
+                            new_tee_times_list.append(tee_time)
+                            print(f"[NEW TIME SLOT] {tee_time}")
+                        elif current_slots > saved_tee_times_data[tee_key]:
+                            new_tee_times_list.append(tee_time)
+                            print(f"[MORE SLOTS AVAILABLE] {tee_time} (was {saved_tee_times_data[tee_key]}, now {current_slots})")
+                    except ValueError:
+                        # If we can't parse slots, treat as potentially new
+                        if tee_key not in saved_tee_times_data:
+                            new_tee_times_list.append(tee_time)
+                            print(f"[NEW TIME SLOT] {tee_time}")
 
         if new_tee_times_list:
-            print(f"[INFO] Found {len(new_tee_times_list)} new tee times!")
+            print(f"[INFO] Found {len(new_tee_times_list)} new/increased tee times!")
         else:
-            print("[INFO] No new tee times found.")
+            print("[INFO] No new tee times or increased availability found.")
 
-        # Save the current list to file (overwrite)
+        # Save the current list to file (overwrite with full details)
         save_tee_times(file_path, current_tee_times)
 
     except Exception as e:
