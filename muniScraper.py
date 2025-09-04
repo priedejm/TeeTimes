@@ -31,30 +31,28 @@ def get_target_filename(day_of_week):
     readable_date = get_target_date(day_of_week).replace("%2F", "-")
     return f"muni_tee_times_{readable_date}.txt"
 
-def create_tee_time_key(time_val, date_val, holes, course):
-    """Create a unique key for a tee time slot, excluding open slots count"""
-    return f"Time: {time_val}, Date: {date_val}, Holes: {holes}, Course: {course}"
-
-def create_full_tee_time(time_val, date_val, holes, course, open_slots):
-    """Create the full tee time string with all details including open slots"""
-    return f"Time: {time_val}, Date: {date_val}, Holes: {holes}, Course: {course}, Open Slots: {open_slots}"
-
-def read_saved_tee_time_keys(file_path):
-    """Read saved tee times and extract just the keys (without slot counts)"""
-    saved_keys = set()
+def read_saved_tee_times_with_slots(file_path):
+    """Read saved tee times and return a dict mapping keys to max slot counts seen"""
+    saved_data = {}
     if os.path.exists(file_path):
         with open(file_path, "r") as file:
             for line in file:
                 line = line.strip()
-                if line:
-                    # Extract the key part (everything before ", Open Slots:")
-                    if ", Open Slots:" in line:
-                        key = line.split(", Open Slots:")[0]
-                        saved_keys.add(key)
-                    else:
-                        # Fallback for lines without Open Slots info
-                        saved_keys.add(line)
-    return saved_keys
+                if line and ", Open Slots:" in line:
+                    # Extract the key part and slot count
+                    parts = line.split(", Open Slots: ")
+                    if len(parts) == 2:
+                        key = parts[0]
+                        try:
+                            slot_count = int(parts[1])
+                            # Keep track of the maximum slot count we've seen for this key
+                            if key not in saved_data or slot_count > saved_data[key]:
+                                saved_data[key] = slot_count
+                        except ValueError:
+                            # If we can't parse slot count, just track that this key exists
+                            if key not in saved_data:
+                                saved_data[key] = 0
+    return saved_data
 
 def save_tee_times(file_path, tee_times):
     with open(file_path, "w") as file:
@@ -101,7 +99,6 @@ def scrape_tee_times(dayOfWeek):
         print(f"[INFO] Found {len(cart_buttons)} tee time buttons on page")
 
         current_tee_times = []
-        current_tee_time_keys = set()
         
         for button in cart_buttons:
             parent_row = button.find_element(By.XPATH, "ancestor::tr")
@@ -111,12 +108,9 @@ def scrape_tee_times(dayOfWeek):
             course = parent_row.find_element(By.XPATH, ".//td[@data-title='Course']").text
             open_slots = parent_row.find_element(By.XPATH, ".//td[@data-title='Open Slots']").text
 
-            # Create the unique key (without slots) and full string (with slots)
-            tee_time_key = create_tee_time_key(time_val, date_val, holes, course)
-            full_tee_time = create_full_tee_time(time_val, date_val, holes, course, open_slots)
-            
+            # Create the full tee time string
+            full_tee_time = f"Time: {time_val}, Date: {date_val}, Holes: {holes}, Course: {course}, Open Slots: {open_slots}"
             current_tee_times.append(full_tee_time)
-            current_tee_time_keys.add(tee_time_key)
             print(f"[FOUND] {full_tee_time}")
 
         file_path = get_target_filename(dayOfWeek)
