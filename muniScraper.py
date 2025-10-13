@@ -6,6 +6,7 @@ from selenium.webdriver.common.by import By
 import os
 from datetime import date, timedelta
 import tempfile
+import shutil
 
 CSRF_TOKEN = "Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G"
 NUMBER_OF_PLAYERS = 1
@@ -59,7 +60,31 @@ def save_tee_times(file_path, tee_times):
         for tee_time in tee_times:
             file.write(f"{tee_time}\n")
 
+def cleanup_chrome_temp_dirs():
+    """Clean up old Chrome temporary directories to prevent storage issues"""
+    temp_base = tempfile.gettempdir()
+    cleaned_count = 0
+    try:
+        for item in os.listdir(temp_base):
+            item_path = os.path.join(temp_base, item)
+            # Look for Chrome/tmp directories
+            if os.path.isdir(item_path):
+                try:
+                    # Remove directories older than 1 hour
+                    if os.path.getmtime(item_path) < (sleep.time() - 3600):
+                        shutil.rmtree(item_path, ignore_errors=True)
+                        cleaned_count += 1
+                except Exception:
+                    pass  # Silently skip directories we can't remove
+        if cleaned_count > 0:
+            print(f"[CLEANUP] Removed {cleaned_count} old temp directories")
+    except Exception as e:
+        print(f"[CLEANUP] Cleanup warning: {e}")
+
 def scrape_tee_times(dayOfWeek):
+    # Clean up old temp directories before starting
+    cleanup_chrome_temp_dirs()
+    
     url = (
         f"https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?"
         f"Action=Start&SubAction=&_csrf_token={CSRF_TOKEN}&numberofplayers={NUMBER_OF_PLAYERS}"
@@ -76,10 +101,10 @@ def scrape_tee_times(dayOfWeek):
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--window-size=1920,1080")
     chrome_options.add_argument(
-    "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-    "AppleWebKit/537.36 (KHTML, like Gecko) "
-    "Chrome/114.0.0.0 Safari/537.36"
-)
+        "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/114.0.0.0 Safari/537.36"
+    )
 
     # Always use a fresh temporary profile
     tmp_profile = tempfile.mkdtemp()
@@ -154,6 +179,17 @@ def scrape_tee_times(dayOfWeek):
     finally:
         if driver:
             print("[STEP] Closing browser...")
-            driver.quit()
+            try:
+                driver.quit()
+            except Exception:
+                pass  # Ignore quit errors
+        
+        # CRITICAL: Clean up the temporary profile directory
+        try:
+            if os.path.exists(tmp_profile):
+                shutil.rmtree(tmp_profile, ignore_errors=True)
+                print(f"[CLEANUP] Removed temp profile: {tmp_profile}")
+        except Exception as cleanup_error:
+            print(f"[WARNING] Could not clean up temp profile: {cleanup_error}")
 
     return new_tee_times_list
