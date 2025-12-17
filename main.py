@@ -2,6 +2,23 @@ import os
 import datetime
 import muniScraper
 from helpers import send_to_discord
+import resource
+import subprocess
+
+# Increase file descriptor limit at startup
+try:
+    resource.setrlimit(resource.RLIMIT_NOFILE, (4096, 8192))
+    print(f"[INFO] File descriptor limit increased to 4096")
+except Exception as e:
+    print(f"[WARNING] Could not set file descriptor limit: {e}")
+
+# Kill any hanging processes from previous runs
+try:
+    subprocess.run(['pkill', '-9', 'chrome'], stderr=subprocess.DEVNULL)
+    subprocess.run(['pkill', '-9', 'chromedriver'], stderr=subprocess.DEVNULL)
+    print("[INFO] Cleaned up any hanging Chrome processes")
+except Exception:
+    pass
 
 # Function to print the current time to the console
 def print_current_time():
@@ -29,21 +46,21 @@ def delete_past_files():
 
 # Print the current time at the beginning of the script
 print_current_time()
+
 # Run the function to delete past files
 delete_past_files()
 
 DISCORD_URL = "https://discord.com/api/webhooks/1326397023171252255/dV5__1t-tiXcqnkGzNTayMFejrOAqwpPbP-L3_K9ulExLBfuKzAjr2eocLxJayVtXIRA"
 
 try:
-    # Scrape tee times for Friday, Saturday, Sunday, and Wednesday
-    # new_times_wednesday = muniScraper.scrape_tee_times("Monday")
+    # Scrape tee times for Friday, Saturday, Sunday
     new_times_friday = muniScraper.scrape_tee_times("Friday")
     new_times_saturday = muniScraper.scrape_tee_times("Saturday")
     new_times_sunday = muniScraper.scrape_tee_times("Sunday")
-
+    
     # Combine the new tee times from all days
-    combined_new_times =  new_times_friday + new_times_saturday + new_times_sunday
-
+    combined_new_times = new_times_friday + new_times_saturday + new_times_sunday
+    
     # Process the combined times and send to Discord
     if combined_new_times:
         print("\nAll new tee times collected:")
@@ -52,6 +69,12 @@ try:
             print(time)
     else:
         print("No new tee times found.")
-
+        
 except Exception as e:
     print(f"An error occurred: {e}")
+
+finally:
+    # Final cleanup and garbage collection
+    import gc
+    gc.collect()
+    print("[INFO] Script completed, resources released")
