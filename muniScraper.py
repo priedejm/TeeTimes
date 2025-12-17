@@ -64,6 +64,10 @@ def aggressive_cleanup():
         subprocess.run(['pkill', '-9', 'chrome'], stderr=subprocess.DEVNULL)
         subprocess.run(['pkill', '-9', 'chromedriver'], stderr=subprocess.DEVNULL)
         sleep.sleep(1)
+        
+        # Force garbage collection to release file descriptors
+        import gc
+        gc.collect()
     except Exception:
         pass
     
