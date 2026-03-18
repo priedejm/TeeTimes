@@ -40,9 +40,9 @@ try:
     new_times_friday = muniScraper.scrape_tee_times("Friday")
     new_times_saturday = muniScraper.scrape_tee_times("Saturday")
     new_times_sunday = muniScraper.scrape_tee_times("Sunday")
-
+    new_times_monday = muniScraper.scrape_tee_times("Thursday")
     # Combine the new tee times from all days
-    combined_new_times =  new_times_friday + new_times_saturday + new_times_sunday
+    combined_new_times =  new_times_friday + new_times_saturday + new_times_sunday + new_times_monday
 
     # Process the combined times and send to Discord
     if combined_new_times:
