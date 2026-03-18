@@ -5296,3 +5296,1095 @@ Error processing file muniCount.txt: time data 'muniCount' does not match format
 
 All new tee times collected:
 Time: 3:00 pm, Date: 03/19/2026, Holes: 18 (Front), Course: Charleston Municipal, Open Slots: 1
+Script started at: 2026-03-18 08:40:02
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 1 tee time buttons on page
+[FOUND] Time: 4:12 pm, Date: 03/20/2026, Holes: 18 (Front), Course: Charleston Municipal, Open Slots: 1
+[INFO] Loaded 1 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmppfks3mr9
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp6_h_f2o5
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp76_68f16
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 1 tee time buttons on page
+[FOUND] Time: 3:00 pm, Date: 03/19/2026, Holes: 18 (Front), Course: Charleston Municipal, Open Slots: 1
+[INFO] Loaded 1 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpciv8ttsa
+[CLEANUP] Removed 1 temp items
+No new tee times found.
+Script started at: 2026-03-18 08:45:02
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 1 tee time buttons on page
+[FOUND] Time: 4:12 pm, Date: 03/20/2026, Holes: 18 (Front), Course: Charleston Municipal, Open Slots: 1
+[INFO] Loaded 1 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpsst6qpg3
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp3xxryc9w
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp8h889r9s
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 1 tee time buttons on page
+[FOUND] Time: 3:00 pm, Date: 03/19/2026, Holes: 18 (Front), Course: Charleston Municipal, Open Slots: 1
+[INFO] Loaded 1 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpwy6we04q
+[CLEANUP] Removed 1 temp items
+No new tee times found.
+Script started at: 2026-03-18 08:50:02
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 1 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp8b2zyftj
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpi__j5hhf
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpmmyyjamy
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 1 tee time buttons on page
+[FOUND] Time: 3:00 pm, Date: 03/19/2026, Holes: 18 (Front), Course: Charleston Municipal, Open Slots: 1
+[INFO] Loaded 1 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpeu_wudg0
+[CLEANUP] Removed 1 temp items
+No new tee times found.
+Script started at: 2026-03-18 08:55:02
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpztzo4ae5
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpb7lrxcoy
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmphui8ng3z
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 1 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpctmexbbp
+[CLEANUP] Removed 1 temp items
+No new tee times found.
+Script started at: 2026-03-18 09:00:02
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpzgal8p1x
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp6bymuwf1
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpw376bv2c
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpgk00gjaf
+[CLEANUP] Removed 1 temp items
+No new tee times found.
+Script started at: 2026-03-18 09:05:02
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp47gseliq
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp7gt1euy1
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp7q36tgoq
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpeavw1rbl
+[CLEANUP] Removed 1 temp items
+No new tee times found.
+Script started at: 2026-03-18 09:10:02
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpova7bev7
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpqos6xsqs
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmplv0n28tk
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpd36hjyix
+[CLEANUP] Removed 1 temp items
+No new tee times found.
+Script started at: 2026-03-18 09:15:02
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpx8by2zey
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpuv_6zqfe
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmppy0f9wru
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp33f1sns6
+[CLEANUP] Removed 1 temp items
+No new tee times found.
+Script started at: 2026-03-18 09:20:03
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpaqoind7d
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpkhye79c7
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpbkug5z24
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpxvkg2vvf
+[CLEANUP] Removed 1 temp items
+No new tee times found.
+Script started at: 2026-03-18 09:30:02
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmppmyszm7_
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpkwuqouuf
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpf4gqfx7s
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmppaibcae0
+[CLEANUP] Removed 1 temp items
+No new tee times found.
+Script started at: 2026-03-18 09:35:02
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpaqi0j4fw
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp_cviye6u
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpfrxvgywd
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpru4joykd
+[CLEANUP] Removed 1 temp items
+No new tee times found.
+Script started at: 2026-03-18 09:40:02
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpltraz97d
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp0k9df7jt
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpnwz36qi7
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmper7n83q_
+[CLEANUP] Removed 1 temp items
+No new tee times found.
+Script started at: 2026-03-18 09:45:02
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpt8_ij0yx
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpj1smgo2n
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpvok7agb_
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpdhctb7mb
+[CLEANUP] Removed 1 temp items
+No new tee times found.
+Script started at: 2026-03-18 09:50:03
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpndg_05di
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpe2e11kwt
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpt9rgr07r
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpz0eqrpnf
+[CLEANUP] Removed 1 temp items
+No new tee times found.
+Script started at: 2026-03-18 09:55:03
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp0bh2c_vz
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpqk_54re9
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmptblqn_en
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpv0y_rb_z
+[CLEANUP] Removed 1 temp items
+No new tee times found.
+Script started at: 2026-03-18 10:00:03
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp7xymfp51
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpbst9tprj
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpg56w5t8r
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpgw0ztpk9
+[CLEANUP] Removed 1 temp items
+No new tee times found.
+Script started at: 2026-03-18 10:05:02
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp1qjso286
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp1bz8_228
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpv41i79s4
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp_y0aa3di
+[CLEANUP] Removed 1 temp items
+No new tee times found.
+Script started at: 2026-03-18 10:10:02
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 1 tee time buttons on page
+[FOUND] Time: 10:21 am, Date: 03/20/2026, Holes: 18 (Front), Course: Charleston Municipal, Open Slots: 1
+[INFO] Loaded 0 saved tee time keys from file
+[NEW TIME SLOT] Time: 10:21 am, Date: 03/20/2026, Holes: 18 (Front), Course: Charleston Municipal, Open Slots: 1
+[INFO] Found 1 new/increased tee times!
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpedgkp10o
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpu23i3ptq
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpev5s6rrh
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp2onxp1x4
+[CLEANUP] Removed 1 temp items
+
+All new tee times collected:
+Time: 10:21 am, Date: 03/20/2026, Holes: 18 (Front), Course: Charleston Municipal, Open Slots: 1
+Script started at: 2026-03-18 10:15:02
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 1 tee time buttons on page
+[FOUND] Time: 10:21 am, Date: 03/20/2026, Holes: 18 (Front), Course: Charleston Municipal, Open Slots: 1
+[INFO] Loaded 1 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpfjdcbqca
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp5_keabp5
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpblqs9wjc
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpzn7w7ktr
+[CLEANUP] Removed 1 temp items
+No new tee times found.
+Script started at: 2026-03-18 10:20:02
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 1 tee time buttons on page
+[FOUND] Time: 10:21 am, Date: 03/20/2026, Holes: 18 (Front), Course: Charleston Municipal, Open Slots: 1
+[INFO] Loaded 1 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpx2ca6nzu
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp1dv6r_v9
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmptbe8o_sc
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp04dwoxl2
+[CLEANUP] Removed 1 temp items
+No new tee times found.
+Script started at: 2026-03-18 10:25:02
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 1 tee time buttons on page
+[FOUND] Time: 10:21 am, Date: 03/20/2026, Holes: 18 (Front), Course: Charleston Municipal, Open Slots: 1
+[INFO] Loaded 1 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpyhw_59fs
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpnvoky2eb
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpf33d3ao8
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp5oab9wfc
+[CLEANUP] Removed 1 temp items
+No new tee times found.
+Script started at: 2026-03-18 10:30:03
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 1 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp0hwtxyeh
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp9moyi48l
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmplsz3p1cg
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 1 tee time buttons on page
+[FOUND] Time: 1:30 pm, Date: 03/19/2026, Holes: 18 (Front), Course: Charleston Municipal, Open Slots: 4
+[INFO] Loaded 0 saved tee time keys from file
+[NEW TIME SLOT] Time: 1:30 pm, Date: 03/19/2026, Holes: 18 (Front), Course: Charleston Municipal, Open Slots: 4
+[INFO] Found 1 new/increased tee times!
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpvhgtun5q
+[CLEANUP] Removed 1 temp items
+
+All new tee times collected:
+Time: 1:30 pm, Date: 03/19/2026, Holes: 18 (Front), Course: Charleston Municipal, Open Slots: 4
+Script started at: 2026-03-18 10:35:02
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpw3lttjdu
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpb8tax9d8
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpyodq86n0
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 1 tee time buttons on page
+[FOUND] Time: 1:57 pm, Date: 03/19/2026, Holes: 18 (Front), Course: Charleston Municipal, Open Slots: 4
+[INFO] Loaded 1 saved tee time keys from file
+[NEW TIME SLOT] Time: 1:57 pm, Date: 03/19/2026, Holes: 18 (Front), Course: Charleston Municipal, Open Slots: 4
+[INFO] Found 1 new/increased tee times!
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpdywcxhty
+[CLEANUP] Removed 1 temp items
+
+All new tee times collected:
+Time: 1:57 pm, Date: 03/19/2026, Holes: 18 (Front), Course: Charleston Municipal, Open Slots: 4
+Script started at: 2026-03-18 10:40:02
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp0ll4jg5d
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp51v_h7ic
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpplxitwvt
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 1 tee time buttons on page
+[FOUND] Time: 1:57 pm, Date: 03/19/2026, Holes: 18 (Front), Course: Charleston Municipal, Open Slots: 2
+[INFO] Loaded 1 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp6d9runk0
+[CLEANUP] Removed 1 temp items
+No new tee times found.
+Script started at: 2026-03-18 10:45:03
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp58zquxtw
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpmiwgaiwf
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpj8mdpgc2
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 1 tee time buttons on page
+[FOUND] Time: 12:27 pm, Date: 03/19/2026, Holes: 18 (Front), Course: Charleston Municipal, Open Slots: 4
+[INFO] Loaded 1 saved tee time keys from file
+[NEW TIME SLOT] Time: 12:27 pm, Date: 03/19/2026, Holes: 18 (Front), Course: Charleston Municipal, Open Slots: 4
+[INFO] Found 1 new/increased tee times!
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpsudewof5
+[CLEANUP] Removed 1 temp items
+
+All new tee times collected:
+Time: 12:27 pm, Date: 03/19/2026, Holes: 18 (Front), Course: Charleston Municipal, Open Slots: 4
+Script started at: 2026-03-18 10:50:02
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp2vs7nu1b
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp1yxxwbcf
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpzpfun4z3
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 1 tee time buttons on page
+[FOUND] Time: 12:27 pm, Date: 03/19/2026, Holes: 18 (Front), Course: Charleston Municipal, Open Slots: 4
+[INFO] Loaded 1 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp406yeh83
+[CLEANUP] Removed 1 temp items
+No new tee times found.
+Script started at: 2026-03-18 10:55:02
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpgakp89tv
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpat5176cg
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp2v_yx0_1
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 1 tee time buttons on page
+[FOUND] Time: 12:27 pm, Date: 03/19/2026, Holes: 18 (Front), Course: Charleston Municipal, Open Slots: 3
+[INFO] Loaded 1 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpwqf5ak8i
+[CLEANUP] Removed 1 temp items
+No new tee times found.
+Script started at: 2026-03-18 11:00:03
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpa_8pg9e8
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpad6oa8bi
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 0 tee time buttons on page
+[INFO] Loaded 0 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmptqj5835i
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[INFO] Found 1 tee time buttons on page
+[FOUND] Time: 12:27 pm, Date: 03/19/2026, Holes: 18 (Front), Course: Charleston Municipal, Open Slots: 3
+[INFO] Loaded 1 saved tee time keys from file
+[INFO] No new tee times or increased availability found.
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpu164cafi
+[CLEANUP] Removed 1 temp items
+No new tee times found.
+Script started at: 2026-03-18 11:05:03
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[INFO] WebDriver started successfully
+[ERROR] An error occurred: HTTPConnectionPool(host='localhost', port=39421): Max retries exceeded with url: /session/d7624dbf89939f4077aaad1d78264a9e/elements (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xffffa42bfce0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp759gok4a
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp1d403uab
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpi8m_2qrz
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp6_4drwps
+[CLEANUP] Removed 1 temp items
+No new tee times found.
+Script started at: 2026-03-18 11:10:03
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpb6ldgx60
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpnw2x5nrf
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpo3fpf751
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp_0e8hhxu
+[CLEANUP] Removed 1 temp items
+No new tee times found.
+Script started at: 2026-03-18 11:15:02
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpfmdciyrs
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpv_2eym0r
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp0c6sk4l3
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp0qiycv5c
+[CLEANUP] Removed 1 temp items
+No new tee times found.
+Script started at: 2026-03-18 11:20:03
+Error processing file canceledLogs.txt: time data 'canceledLogs' does not match format '%m-%d-%Y'
+Error processing file muniCount.txt: time data 'muniCount' does not match format '%m-%d-%Y'
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F20%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmp6y52rxxj
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F21%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpbxft0k9s
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F22%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpyi22q03i
+[CLEANUP] Removed 1 temp items
+[CLEANUP] Removed 1 temp items
+[INFO] Navigating to: https://sccharlestonweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=Xf0R600W0Q0E2D481X2O2O5D604X6D57066Z4U5E4C0N5N5W5C4E71564Z6T4Z065Y4L466C6D674S6M6H0T5G4C5I6M19724R553Y0264566O50046D5R4S6K1P5M625G&numberofplayers=1&secondarycode=&begindate=03%2F19%2F2026&begintime=+7%3A00AM&numberofholes=18&display=Detail&module=GR&multiselectlist_value=&grwebsearch_buttonsearch=yes
+[ERROR] An error occurred: Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+[CLEANUP] Removed temp profile: /home/golf/TeeTimes/.chrome_temps/tmpe7s9am4u
+[CLEANUP] Removed 1 temp items
+No new tee times found.
