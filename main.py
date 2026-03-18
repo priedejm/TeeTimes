@@ -2,56 +2,55 @@ import os
 import datetime
 import muniScraper
 from helpers import send_to_discord
+from cityConfig import CITY_CONFIGS
 
-# Function to print the current time to the console
+
 def print_current_time():
     current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     print(f"Script started at: {current_time}")
 
-# Function to delete files with dates in the past
+
 def delete_past_files():
+    """Delete cache files with dates in the past. Handles both old and new prefixed filenames."""
     today = datetime.date.today()
-    files = os.listdir() 
+    files = os.listdir()
     for file in files:
-        if file.endswith(".txt"):
-            # Extract the date from the filename (format: muni_tee_times_yyyy-mm-dd.txt)
+        if file.endswith(".txt") and "_tee_times_" in file:
             try:
-                filename_parts = file.split('_')
-                date_str = filename_parts[-1].replace(".txt", "") # Get the date part from the filename
-                file_date = datetime.datetime.strptime(date_str, "%m-%d-%Y").date() # Convert to date object
-                
-                # If the file date is in the past, delete it
+                # Extract the date part after the last "tee_times_" segment
+                date_str = file.split("_tee_times_")[-1].replace(".txt", "")
+                file_date = datetime.datetime.strptime(date_str, "%m-%d-%Y").date()
+
                 if file_date < today:
-                    os.remove(file) # Delete the file
+                    os.remove(file)
                     print(f"Deleted past file: {file}")
             except Exception as e:
                 print(f"Error processing file {file}: {e}")
 
-# Print the current time at the beginning of the script
+
 print_current_time()
-# Run the function to delete past files
 delete_past_files()
 
-DISCORD_URL = "https://discord.com/api/webhooks/1326397023171252255/dV5__1t-tiXcqnkGzNTayMFejrOAqwpPbP-L3_K9ulExLBfuKzAjr2eocLxJayVtXIRA"
+# ── Run scraper for each city ──────────────────────────────────────────────
+for city_key, config in CITY_CONFIGS.items():
+    city_name = config["name"]
+    print(f"\n{'='*50}")
+    print(f"  Scraping: {city_name}")
+    print(f"{'='*50}")
 
-try:
-    # Scrape tee times for Friday, Saturday, Sunday, and Wednesday
-    # new_times_wednesday = muniScraper.scrape_tee_times("Monday")
-    new_times_friday = muniScraper.scrape_tee_times("Friday")
-    new_times_saturday = muniScraper.scrape_tee_times("Saturday")
-    new_times_sunday = muniScraper.scrape_tee_times("Sunday")
-    new_times_monday = muniScraper.scrape_tee_times("Thursday")
-    # Combine the new tee times from all days
-    combined_new_times =  new_times_friday + new_times_saturday + new_times_sunday + new_times_monday
+    try:
+        combined_new_times = []
+        for day in config["scrape_days"]:
+            new_times = muniScraper.scrape_tee_times(day, config)
+            combined_new_times.extend(new_times)
 
-    # Process the combined times and send to Discord
-    if combined_new_times:
-        print("\nAll new tee times collected:")
-        send_to_discord(DISCORD_URL, combined_new_times)
-        for time in combined_new_times:
-            print(time)
-    else:
-        print("No new tee times found.")
+        if combined_new_times:
+            print(f"\n[{city_name}] {len(combined_new_times)} new tee times collected — sending to Discord")
+            send_to_discord(config["discord_webhook"], combined_new_times, cityConfig=config)
+            for t in combined_new_times:
+                print(t)
+        else:
+            print(f"[{city_name}] No new tee times found.")
 
-except Exception as e:
-    print(f"An error occurred: {e}")
+    except Exception as e:
+        print(f"[{city_name}] An error occurred: {e}")
