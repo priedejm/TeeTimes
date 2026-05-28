@@ -10,7 +10,7 @@ CITY_CONFIGS = {
         "begin_time": "+7%3A00AM",
         "number_of_holes": 18,
         "discord_webhook": "https://discord.com/api/webhooks/1326397023171252255/dV5__1t-tiXcqnkGzNTayMFejrOAqwpPbP-L3_K9ulExLBfuKzAjr2eocLxJayVtXIRA",
-        "scrape_days": ["Friday", "Saturday", "Sunday", "Thursday"],
+        "scrape_days": [ "Saturday","Friday", "Sunday"],
         "file_prefix": "chs_muni",       # Prefix for cache files
         "counter_file": "chs_muniCount.txt",
         "bot_name": "Charleston Muni",
@@ -24,7 +24,7 @@ CITY_CONFIGS = {
         "begin_time": "+7%3A00+AM",
         "number_of_holes": 18,
         "discord_webhook": "https://discord.com/api/webhooks/1483854197467250709/2g1N0eduJdc5ZDFOTOU-rbHANJwlPq4PVME5DLjvlXezAiGpGN_ta_RLaiLwyQStEVma",
-        "scrape_days": ["Saturday"],
+        "scrape_days": [],
         "file_prefix": "wilm_muni",      # Prefix for cache files
         "counter_file": "wilm_muniCount.txt",
         "bot_name": "Wilmington Muni",
