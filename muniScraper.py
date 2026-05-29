@@ -131,14 +131,15 @@ def scrape_tee_times(day_of_week, cityConfig):
     chrome_options.add_argument("--disable-logging")
     chrome_options.add_argument("--log-level=3")
     chrome_options.add_argument("--window-size=1920,1080")
-    chrome_options.add_argument("--single-process")
+    chrome_options.add_argument("--js-flags=--max-old-space-size=64")
+    chrome_options.add_argument("--renderer-process-limit=1")
     chrome_options.add_argument(
         "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/114.0.0.0 Safari/537.36"
     )
 
-    local_temp_base = os.path.join(os.getcwd(), '.chrome_temps')
+    local_temp_base = os.path.join(os.path.dirname(os.path.abspath(__file__)), '.chrome_temps')
     os.makedirs(local_temp_base, exist_ok=True)
 
     tmp_profile = tempfile.mkdtemp(dir=local_temp_base)
