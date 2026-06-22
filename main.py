@@ -1,4 +1,5 @@
 import os
+import shutil
 import datetime
 import muniScraper
 from helpers import send_to_discord
@@ -40,9 +41,20 @@ for city_key, config in CITY_CONFIGS.items():
 
     try:
         combined_new_times = []
-        for day in config["scrape_days"]:
-            new_times = muniScraper.scrape_tee_times(day, config)
-            combined_new_times.extend(new_times)
+        if config["scrape_days"]:
+            muniScraper.aggressive_cleanup()
+            driver, tmp_profile = muniScraper.create_driver()
+            try:
+                for day in config["scrape_days"]:
+                    new_times = muniScraper.scrape_tee_times(day, config, driver)
+                    combined_new_times.extend(new_times)
+            finally:
+                try:
+                    driver.quit()
+                except Exception:
+                    pass
+                shutil.rmtree(tmp_profile, ignore_errors=True)
+                muniScraper.aggressive_cleanup()
 
         if combined_new_times:
             print(f"\n[{city_name}] {len(combined_new_times)} new tee times collected — sending to Discord")

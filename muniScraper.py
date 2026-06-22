@@ -105,22 +105,16 @@ def build_url(cityConfig, day_of_week):
     )
 
 
-def scrape_tee_times(day_of_week, cityConfig):
+def create_driver():
     """
-    Scrape tee times for a given day using the provided city config.
+    Launch a single headless Chrome instance to be reused across multiple
+    scrape_tee_times() calls for the same city, instead of spinning up a
+    fresh Chrome+chromedriver process per scrape day.
 
-    cityConfig should be a dict with keys:
-        domain, csrf_token, number_of_players, begin_time,
-        number_of_holes, file_prefix, name
+    Returns (driver, tmp_profile). On failure to launch, the allocated
+    tmp_profile is cleaned up before the exception is re-raised, so callers
+    never have to handle a partially-created driver/profile pair.
     """
-    aggressive_cleanup()
-
-    city_name = cityConfig.get("name", "Unknown")
-    file_prefix = cityConfig.get("file_prefix", "muni")
-
-    url = build_url(cityConfig, day_of_week)
-    print(f"[{city_name}] Navigating to: {url}")
-
     chrome_options = Options()
     chrome_options.add_argument("--headless=new")
     chrome_options.add_argument("--disable-gpu")
@@ -147,14 +141,36 @@ def scrape_tee_times(day_of_week, cityConfig):
     chrome_options.add_argument(f"--crash-dumps-dir={tmp_profile}")
 
     service = Service(CHROMEDRIVER_PATH)
-    driver = None
-    new_tee_times_list = []
 
     try:
         driver = webdriver.Chrome(service=service, options=chrome_options)
-        print(f"[{city_name}] WebDriver started successfully")
+    except Exception:
+        shutil.rmtree(tmp_profile, ignore_errors=True)
+        raise
 
-        driver.set_page_load_timeout(30)
+    print("WebDriver started successfully")
+    driver.set_page_load_timeout(30)
+    return driver, tmp_profile
+
+
+def scrape_tee_times(day_of_week, cityConfig, driver):
+    """
+    Scrape tee times for a given day using the provided city config and an
+    already-running WebDriver (shared across all scrape_days for this city).
+
+    cityConfig should be a dict with keys:
+        domain, csrf_token, number_of_players, begin_time,
+        number_of_holes, file_prefix, name
+    """
+    city_name = cityConfig.get("name", "Unknown")
+    file_prefix = cityConfig.get("file_prefix", "muni")
+
+    url = build_url(cityConfig, day_of_week)
+    print(f"[{city_name}] Navigating to: {url}")
+
+    new_tee_times_list = []
+
+    try:
         driver.get(url)
         sleep.sleep(5)
 
@@ -206,22 +222,5 @@ def scrape_tee_times(day_of_week, cityConfig):
 
     except Exception as e:
         print(f"[{city_name}][ERROR] An error occurred: {e}")
-
-    finally:
-        if driver:
-            try:
-                driver.quit()
-            except Exception:
-                pass
-            sleep.sleep(1)
-
-        try:
-            if os.path.exists(tmp_profile):
-                shutil.rmtree(tmp_profile, ignore_errors=True)
-                print(f"[{city_name}][CLEANUP] Removed temp profile: {tmp_profile}")
-        except Exception:
-            pass
-
-        aggressive_cleanup()
 
     return new_tee_times_list
