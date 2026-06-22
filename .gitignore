@@ -1,0 +1,14 @@
+# Chrome/Selenium runtime artifacts
+.chrome_temps/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Logs
+canceledLogs.txt
+*.log
+
+# Runtime-generated state (cache files & counters, not source)
+*_tee_times_*.txt
+*Count.txt
