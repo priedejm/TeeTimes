@@ -105,16 +105,7 @@ def build_url(cityConfig, day_of_week):
     )
 
 
-def create_driver():
-    """
-    Launch a single headless Chrome instance to be reused across multiple
-    scrape_tee_times() calls for the same city, instead of spinning up a
-    fresh Chrome+chromedriver process per scrape day.
-
-    Returns (driver, tmp_profile). On failure to launch, the allocated
-    tmp_profile is cleaned up before the exception is re-raised, so callers
-    never have to handle a partially-created driver/profile pair.
-    """
+def _build_chrome_options(tmp_profile):
     chrome_options = Options()
     chrome_options.add_argument("--headless=new")
     chrome_options.add_argument("--disable-gpu")
@@ -132,25 +123,53 @@ def create_driver():
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/114.0.0.0 Safari/537.36"
     )
+    chrome_options.add_argument(f"--user-data-dir={tmp_profile}")
+    chrome_options.add_argument(f"--crash-dumps-dir={tmp_profile}")
+    return chrome_options
 
+
+def create_driver(max_attempts=3):
+    """
+    Launch a single headless Chrome instance to be reused across multiple
+    scrape_tee_times() calls for the same city, instead of spinning up a
+    fresh Chrome+chromedriver process per scrape day.
+
+    Chromedriver occasionally fails the startup handshake on a resource
+    constrained Pi (exits with status 1, or the HTTP connection drops mid
+    session-creation) -- retried with a fresh profile dir and a cleanup
+    pass in between, since a retry resolves the vast majority of these
+    transient failures.
+
+    Returns (driver, tmp_profile). On failure of every attempt, all
+    allocated tmp_profile dirs are cleaned up before the last error is
+    re-raised, so callers never have to handle a partially-created
+    driver/profile pair.
+    """
     local_temp_base = os.path.join(os.path.dirname(os.path.abspath(__file__)), '.chrome_temps')
     os.makedirs(local_temp_base, exist_ok=True)
 
-    tmp_profile = tempfile.mkdtemp(dir=local_temp_base)
-    chrome_options.add_argument(f"--user-data-dir={tmp_profile}")
-    chrome_options.add_argument(f"--crash-dumps-dir={tmp_profile}")
+    last_error = None
+    for attempt in range(1, max_attempts + 1):
+        tmp_profile = tempfile.mkdtemp(dir=local_temp_base)
+        chrome_options = _build_chrome_options(tmp_profile)
+        service = Service(CHROMEDRIVER_PATH)
 
-    service = Service(CHROMEDRIVER_PATH)
+        try:
+            driver = webdriver.Chrome(service=service, options=chrome_options)
+            driver.set_page_load_timeout(30)
+        except Exception as e:
+            last_error = e
+            shutil.rmtree(tmp_profile, ignore_errors=True)
+            if attempt < max_attempts:
+                print(f"[WARN] WebDriver failed to start (attempt {attempt}/{max_attempts}): {e}. Retrying...")
+                aggressive_cleanup()
+                sleep.sleep(3)
+            continue
 
-    try:
-        driver = webdriver.Chrome(service=service, options=chrome_options)
-    except Exception:
-        shutil.rmtree(tmp_profile, ignore_errors=True)
-        raise
+        print(f"WebDriver started successfully (attempt {attempt}/{max_attempts})")
+        return driver, tmp_profile
 
-    print("WebDriver started successfully")
-    driver.set_page_load_timeout(30)
-    return driver, tmp_profile
+    raise last_error
 
 
 def scrape_tee_times(day_of_week, cityConfig, driver):
