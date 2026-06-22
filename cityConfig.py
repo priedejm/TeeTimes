@@ -10,7 +10,7 @@ CITY_CONFIGS = {
         "begin_time": "+7%3A00AM",
         "number_of_holes": 18,
         "discord_webhook": "https://discord.com/api/webhooks/1326397023171252255/dV5__1t-tiXcqnkGzNTayMFejrOAqwpPbP-L3_K9ulExLBfuKzAjr2eocLxJayVtXIRA",
-        "scrape_days": [ "Saturday","Friday", "Sunday"],
+        "scrape_days": [ "Tuesday", "Wednesday", "Saturday","Friday", "Sunday"],
         "file_prefix": "chs_muni",       # Prefix for cache files
         "counter_file": "chs_muniCount.txt",
         "bot_name": "Charleston Muni",
