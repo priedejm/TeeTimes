@@ -199,12 +199,22 @@ def scrape_tee_times(day_of_week, cityConfig, driver):
         current_tee_times = []
 
         for button in cart_buttons:
-            parent_row = button.find_element(By.XPATH, "ancestor::tr")
-            time_val = parent_row.find_element(By.XPATH, ".//td[@data-title='Time']").text
-            date_val = parent_row.find_element(By.XPATH, ".//td[@data-title='Date']").text
-            holes = parent_row.find_element(By.XPATH, ".//td[@data-title='Holes']").text
-            course = parent_row.find_element(By.XPATH, ".//td[@data-title='Course']").text
-            open_slots = parent_row.find_element(By.XPATH, ".//td[@data-title='Open Slots']").text
+            try:
+                parent_row = button.find_element(By.XPATH, "ancestor::tr")
+            except Exception as e:
+                print(f"[{city_name}][WARN] Skipping tee time button with no ancestor row: {e}")
+                continue
+
+            try:
+                time_val = parent_row.find_element(By.XPATH, ".//td[@data-title='Time']").text
+                date_val = parent_row.find_element(By.XPATH, ".//td[@data-title='Date']").text
+                holes = parent_row.find_element(By.XPATH, ".//td[@data-title='Holes']").text
+                course = parent_row.find_element(By.XPATH, ".//td[@data-title='Course']").text
+                open_slots = parent_row.find_element(By.XPATH, ".//td[@data-title='Open Slots']").text
+            except Exception as e:
+                row_html = parent_row.get_attribute("outerHTML")[:2000]
+                print(f"[{city_name}][WARN] Skipping unparseable tee time row: {e}\nRow HTML: {row_html}")
+                continue
 
             full_tee_time = f"Time: {time_val}, Date: {date_val}, Holes: {holes}, Course: {course}, Open Slots: {open_slots}"
             current_tee_times.append(full_tee_time)
