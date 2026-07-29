@@ -172,6 +172,21 @@ def create_driver(max_attempts=3):
     raise last_error
 
 
+def _get_column_value(parent_row, label):
+    """
+    Extract a labeled column's value from a results row.
+
+    The table has no data-title attributes; each td instead holds a
+    mobile-column-header span with the label text, followed by the value as a
+    plain text sibling (the span is visually hidden at desktop widths).
+    """
+    td = parent_row.find_element(By.XPATH, f".//td[.//span[normalize-space(text())='{label}']]")
+    text = td.text.strip()
+    if text.startswith(label):
+        text = text[len(label):].strip()
+    return text
+
+
 def scrape_tee_times(day_of_week, cityConfig, driver):
     """
     Scrape tee times for a given day using the provided city config and an
@@ -206,11 +221,11 @@ def scrape_tee_times(day_of_week, cityConfig, driver):
                 continue
 
             try:
-                time_val = parent_row.find_element(By.XPATH, ".//td[@data-title='Time']").text
-                date_val = parent_row.find_element(By.XPATH, ".//td[@data-title='Date']").text
-                holes = parent_row.find_element(By.XPATH, ".//td[@data-title='Holes']").text
-                course = parent_row.find_element(By.XPATH, ".//td[@data-title='Course']").text
-                open_slots = parent_row.find_element(By.XPATH, ".//td[@data-title='Open Slots']").text
+                time_val = _get_column_value(parent_row, "Time")
+                date_val = _get_column_value(parent_row, "Date")
+                holes = _get_column_value(parent_row, "Holes")
+                course = _get_column_value(parent_row, "Course")
+                open_slots = _get_column_value(parent_row, "Open Slots")
             except Exception as e:
                 row_html = parent_row.get_attribute("outerHTML")[:2000]
                 print(f"[{city_name}][WARN] Skipping unparseable tee time row: {e}\nRow HTML: {row_html}")
