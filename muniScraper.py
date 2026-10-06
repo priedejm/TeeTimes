@@ -1,15 +1,15 @@
 import time as sleep
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
+from playwright.sync_api import sync_playwright
 import os
 from datetime import date, timedelta
-import tempfile
 import shutil
 import subprocess
 
-CHROMEDRIVER_PATH = "/usr/bin/chromedriver"
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/114.0.0.0 Safari/537.36"
+)
 
 
 def get_target_date(day_of_week):
@@ -105,69 +105,77 @@ def build_url(cityConfig, day_of_week):
     )
 
 
-def _build_chrome_options(tmp_profile):
-    chrome_options = Options()
-    chrome_options.add_argument("--headless=new")
-    chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument("--no-sandbox")
-    chrome_options.add_argument("--disable-dev-shm-usage")
-    chrome_options.add_argument("--disable-software-rasterizer")
-    chrome_options.add_argument("--disable-extensions")
-    chrome_options.add_argument("--disable-logging")
-    chrome_options.add_argument("--log-level=3")
-    chrome_options.add_argument("--window-size=1920,1080")
-    chrome_options.add_argument("--js-flags=--max-old-space-size=64")
-    chrome_options.add_argument("--renderer-process-limit=1")
-    chrome_options.add_argument(
-        "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/114.0.0.0 Safari/537.36"
-    )
-    chrome_options.add_argument(f"--user-data-dir={tmp_profile}")
-    chrome_options.add_argument(f"--crash-dumps-dir={tmp_profile}")
-    return chrome_options
+CHROMIUM_ARGS = [
+    "--disable-gpu",
+    "--disable-dev-shm-usage",
+    "--disable-software-rasterizer",
+    "--disable-extensions",
+    "--js-flags=--max-old-space-size=64",
+    "--renderer-process-limit=1",
+]
+
+
+class Driver:
+    """
+    A headless Chromium page launched by Playwright, reused across all of a
+    city's scrape days.
+
+    Playwright downloads its own Chromium build (not the system snap) and
+    talks to it over a pipe rather than chromedriver's localhost HTTP port,
+    which started resetting every connection in Oct 2026 on the Pi.
+    Playwright also creates and deletes the browser's temp profile itself.
+    """
+
+    def __init__(self, playwright, browser, page):
+        self._playwright = playwright
+        self._browser = browser
+        self.page = page
+
+    def quit(self):
+        for close in (self._browser.close, self._playwright.stop):
+            try:
+                close()
+            except Exception:
+                pass
 
 
 def create_driver(max_attempts=3):
     """
-    Launch a single headless Chrome instance to be reused across multiple
-    scrape_tee_times() calls for the same city, instead of spinning up a
-    fresh Chrome+chromedriver process per scrape day.
+    Launch a single headless Chromium to be reused across multiple
+    scrape_tee_times() calls for the same city.
 
-    Chromedriver occasionally fails the startup handshake on a resource
-    constrained Pi (exits with status 1, or the HTTP connection drops mid
-    session-creation) -- retried with a fresh profile dir and a cleanup
-    pass in between, since a retry resolves the vast majority of these
-    transient failures.
-
-    Returns (driver, tmp_profile). On failure of every attempt, all
-    allocated tmp_profile dirs are cleaned up before the last error is
-    re-raised, so callers never have to handle a partially-created
-    driver/profile pair.
+    Browser startup occasionally fails on a resource constrained Pi -- retried
+    with a cleanup pass in between, since a retry resolves the vast majority
+    of these transient failures. On failure of every attempt the last error
+    is re-raised, so callers never have to handle a partially-created driver.
     """
-    local_temp_base = os.path.join(os.path.dirname(os.path.abspath(__file__)), '.chrome_temps')
-    os.makedirs(local_temp_base, exist_ok=True)
-
     last_error = None
     for attempt in range(1, max_attempts + 1):
-        tmp_profile = tempfile.mkdtemp(dir=local_temp_base)
-        chrome_options = _build_chrome_options(tmp_profile)
-        service = Service(CHROMEDRIVER_PATH)
-
+        playwright = None
         try:
-            driver = webdriver.Chrome(service=service, options=chrome_options)
-            driver.set_page_load_timeout(30)
+            playwright = sync_playwright().start()
+            # channel="chromium" runs the full browser in new headless mode
+            # (same as the old --headless=new) rather than the stripped-down
+            # headless shell, which Cloudflare is quicker to flag.
+            browser = playwright.chromium.launch(channel="chromium", headless=True, args=CHROMIUM_ARGS)
+            context = browser.new_context(user_agent=USER_AGENT, viewport={"width": 1920, "height": 1080})
+            page = context.new_page()
+            page.set_default_timeout(30000)
         except Exception as e:
             last_error = e
-            shutil.rmtree(tmp_profile, ignore_errors=True)
+            if playwright is not None:
+                try:
+                    playwright.stop()
+                except Exception:
+                    pass
             if attempt < max_attempts:
-                print(f"[WARN] WebDriver failed to start (attempt {attempt}/{max_attempts}): {e}. Retrying...")
+                print(f"[WARN] Browser failed to start (attempt {attempt}/{max_attempts}): {e}. Retrying...")
                 aggressive_cleanup()
                 sleep.sleep(3)
             continue
 
-        print(f"WebDriver started successfully (attempt {attempt}/{max_attempts})")
-        return driver, tmp_profile
+        print(f"Browser started successfully (attempt {attempt}/{max_attempts})")
+        return Driver(playwright, browser, page)
 
     raise last_error
 
@@ -180,8 +188,10 @@ def _get_column_value(parent_row, label):
     mobile-column-header span with the label text, followed by the value as a
     plain text sibling (the span is visually hidden at desktop widths).
     """
-    td = parent_row.find_element(By.XPATH, f".//td[.//span[normalize-space(text())='{label}']]")
-    text = td.text.strip()
+    td = parent_row.locator(f"xpath=.//td[.//span[normalize-space(text())='{label}']]").first
+    # Short timeout so a missing column fails fast instead of waiting the
+    # page's 30s default.
+    text = td.inner_text(timeout=2000).strip()
     if text.startswith(label):
         text = text[len(label):].strip()
     return text
@@ -190,7 +200,7 @@ def _get_column_value(parent_row, label):
 def scrape_tee_times(day_of_week, cityConfig, driver):
     """
     Scrape tee times for a given day using the provided city config and an
-    already-running WebDriver (shared across all scrape_days for this city).
+    already-running Driver (shared across all scrape_days for this city).
 
     cityConfig should be a dict with keys:
         domain, csrf_token, number_of_players, begin_time,
@@ -205,17 +215,19 @@ def scrape_tee_times(day_of_week, cityConfig, driver):
     new_tee_times_list = []
 
     try:
-        driver.get(url)
+        page = driver.page
+        page.goto(url)
         sleep.sleep(5)
 
-        cart_buttons = driver.find_elements(By.CLASS_NAME, "button-cell--cart")
+        cart_buttons = page.locator(".button-cell--cart").all()
         print(f"[{city_name}] Found {len(cart_buttons)} tee time buttons on page")
 
         current_tee_times = []
 
         for button in cart_buttons:
             try:
-                parent_row = button.find_element(By.XPATH, "ancestor::tr")
+                parent_row = button.locator("xpath=ancestor::tr").first
+                parent_row.wait_for(state="attached", timeout=2000)
             except Exception as e:
                 print(f"[{city_name}][WARN] Skipping tee time button with no ancestor row: {e}")
                 continue
@@ -227,7 +239,7 @@ def scrape_tee_times(day_of_week, cityConfig, driver):
                 course = _get_column_value(parent_row, "Course")
                 open_slots = _get_column_value(parent_row, "Open Slots")
             except Exception as e:
-                row_html = parent_row.get_attribute("outerHTML")[:2000]
+                row_html = parent_row.evaluate("el => el.outerHTML")[:2000]
                 print(f"[{city_name}][WARN] Skipping unparseable tee time row: {e}\nRow HTML: {row_html}")
                 continue
 
